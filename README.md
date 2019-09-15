@@ -18,14 +18,15 @@ Queremos enriquecer los datos de Airbnb con otro dataset extraido de turismo-act
 Este scraping elijo hacerlo desde la herramienta Import.io en vez de por scripts de scrapy.org.
 
 
-[ENLACE AL VIDEO ]
+[Enlace a la captura](https://drive.google.com/drive/folders/1I5RVYGOO8FNP8Vkwq6MnBB3OgTmtFktY?usp=sharing)
+
 
 ### Perfilado de los datos
 
 Uso Trifacta para hacer una limpieza y perfilado de los datasets de Airbnb y Turismo-activo.net
 Creamos una nueva “Recipe” y un “new job” para limpiar los datos, especialmente los dedicados a la localización, que es lo que usaremos.
 
-
+[Enlace a la captura](https://drive.google.com/drive/folders/1vcI3BldqSBUdDYyCYTOSeLYwHbGL5TFm?usp=sharing)
 
 ### Cloud
 
