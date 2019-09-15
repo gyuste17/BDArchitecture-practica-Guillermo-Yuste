@@ -30,20 +30,26 @@ Creamos una nueva “Recipe” y un “new job” para limpiar los datos, especi
 
 ### Cloud
 
-Utilizar un proveedor de Cloud para montar un cluster de al menos 3 contenedores configurados correctamente o hacerlo en el cluster local
-Usaré Google Cloud Storage para almacenar los datos en un cluster de 3 segmentos
-gy-airbnb1, local, nearline
-Gy-turismo-activo1
+Usaré Google Cloud Storage para almacenar los datos en un cluster con los siguientes segmentos contenedores
+gy-airbnb1
+gy-turismo-activo1
 
 ### Hadoop
 
-Subiríamos los datos al cluster de Hadoop mediante Google storage connectore insertarlos en el HDFS.
-Indicar pasos necesarios para realizar esto, dependiendo de la opción elegida en el Sprint 3
-Realizar la tarea de procesamiento de datos sobre los datos extraídos utilizando WordCount.
+Subiríamos los datos al cluster de Hadoop mediante Google storage connector para insertarlos en el HDFS.
+
+Para ello descargaríamos el conector de Hadoop copiaríamos el archivo jar a nuestro directorio de Hadoop.
+Tras lo cual, habríamos habilitado la API de computer engine en nuestro proyecto
 
 
 ### Operaciones de datos
 
-Utilizar HIVE/Elastic/Kafka/Mongo para insertar los datos extraídos durante el Sprint 2 y realizar operaciones con los mismos.
-Indicar los pasos y las decisiones de diseño respecto a cómo organizar los datos.
+Utilizaríamos PostreSQL / Cloud SQL para insertar los datos extraídos realizar operaciones aunando ambos datasets.
+Para la configuración usaríamos el marketplace de Google Cloud.
+Elegiría SQL frente a NoSQL debido a la calidad estructurada de los datos con los que trabajamos.
+
+
+### Visualización de datos
+
+Para presentación de gráficos y resultados finales lo haríamos tanto en excel, como en herramientas integradas en cloud marketplace como CanvasJS
 
